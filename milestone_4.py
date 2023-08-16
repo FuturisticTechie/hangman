@@ -30,7 +30,7 @@ class Hangman:
                     self.word_guessed[indx] = guess                 #changes the index of the letter in the (word_guessed) attribute (which corresponds to the blank _) matches the guess made by the user
             self.num_letters -= 1                                   #reduces the number of guesses remaining for user by 1
             print(self.word_guessed)
-            return(self.num_letters)
+            print(self.num_letters)                                  #instead of return 
 
         else:                                                    
             print(f"Sorry, {guess} is not in the word. Try again.")
@@ -45,7 +45,7 @@ class Hangman:
             else:
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
-            return self.list_of_guesses
+                print(self.list_of_guesses)
 
 
 the_game = Hangman(word_list)
