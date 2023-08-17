@@ -1,6 +1,6 @@
 
 
-
+#miscellaneous
 # word = "example"
 # guesses = ['_' for _ in range(len(word))]
 # print(guesses)

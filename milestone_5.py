@@ -45,12 +45,12 @@ class Hangman:
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
                 print(self.list_of_guesses)
-            break
+            break                                                   #a break is needed here to stop the while loop from repeating and leading to negatuve numbers
         
     
     def play_game(word_list):
-        num_lives = 5
-        game = Hangman(word_list, num_lives)
+        num_lives = 5                                               #local variable added
+        game = Hangman(word_list, num_lives)                        #this is the reference class/ fucntion
 
         while True:
             if game.num_lives == 0:
@@ -71,4 +71,4 @@ the_game = Hangman(word_list)
 # the_game.ask_for_input()
 # print(the_game.list_of_guesses)
 
-the_game.play_game()
+the_game.play_game()                                                #finally able to call function

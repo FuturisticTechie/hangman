@@ -16,6 +16,7 @@ This projoect is made up for mutiple python files corresponding to the milestone
 - milestone 3
 - milestone 4
 - milestone 5
+- This is an README.md file updated initially in GitHub but has been amendend on VSCode
 
 ## License information
 This is a practice game, no specific licesning required 
